@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model weights (exceed GitHub 100MB file size limit)
+*.pth
+
+# Datasets (downloaded, large, regenerable)
+**/FashionMNIST/
+**/cifar-10-batches-py/
+
+# Logs
+*.log
